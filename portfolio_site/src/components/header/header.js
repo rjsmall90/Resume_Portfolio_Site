@@ -1,7 +1,10 @@
-var NewComponent = React.createClass({
-    render: function() {
+import React, { Component } from 'react';
+
+export class Header extends Component {
+
+    render() {
       return (
-  
+        <React.Fragment>
         <header>   	
           <div className="row">
             <div className="top-bar">
@@ -15,7 +18,6 @@ var NewComponent = React.createClass({
                   <li><a className="smoothscroll" href="#about" title>About</a></li>
                   <li><a className="smoothscroll" href="#resume" title>Resume</a></li>
                   <li><a className="smoothscroll" href="#portfolio" title>Portfolio</a></li>
-                  <li><a className="smoothscroll" href="#services" title>Services</a></li>					
                   <li><a className="smoothscroll" href="#contact" title>Contact</a></li>	
                   <li><a href="styles.html" title>Style Demo</a></li>				
                 </ul>
@@ -23,6 +25,9 @@ var NewComponent = React.createClass({
             </div> {/* /top-bar */} 
           </div> {/* /row */} 		
         </header>
+        </React.Fragment>
       );
     }
-  });
+  };
+  
+  export default Header
