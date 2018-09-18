@@ -17,15 +17,16 @@ export class Home extends Component {
                     <a className="button stroke smoothscroll" href="#about" title>More About Me</a>
                   </div>  
                 </div>   		 		
-              </div> {/* /intro-content */} 
-              <ul className="intro-social">        
+              </div>
+    </div> 
+              /* <ul className="intro-social">        
                 <li><a href="#"><i className="fa fa-facebook" /></a></li>
                 <li><a href="#"><i className="fa fa-behance" /></a></li>
                 <li><a href="#"><i className="fa fa-twitter" /></a></li>
                 <li><a href="#"><i className="fa fa-dribbble" /></a></li>
                 <li><a href="#"><i className="fa fa-instagram" /></a></li>
-              </ul> {/* /intro-social */}
-            </div>
+              </ul> /intro-social */
+            
           );
         }
       

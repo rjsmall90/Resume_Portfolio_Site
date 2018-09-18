@@ -20,41 +20,44 @@ export class Resume extends Component {
               <div className="timeline-wrap">
                 <div className="timeline-block">
                   <div className="timeline-ico">
-                    <i className="fa fa-graduation-cap" />
+                    <i className="fa fa-briefcase" />
                   </div>
                   <div className="timeline-header">
-                    <h3>UI Designer</h3>
-                    <p>July 2015 - Present</p>
+                    <h3>Software Engineer Student</h3>
+                    <p>May 2018 - August 2018</p>
                   </div>
                   <div className="timeline-content">
-                    <h4>Awesome Studio</h4>
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                    <h4>Zip Code Wilmington</h4>
+                    <p> Three month bootcamp intensely learning Java, Object-Oriented Programming principles, & Spring.</p>
                   </div>
                 </div> {/* /timeline-block */}
                 <div className="timeline-block">
                   <div className="timeline-ico">
-                    <i className="fa fa-graduation-cap" />
+                    <i className="fa fa-briefcase" />
                   </div>
                   <div className="timeline-header">
-                    <h3>Front-end Developer</h3>
-                    <p>July 2014 - June 2015</p>
+                    <h3>Priority Card Specialist/Subject Matter Expert</h3>
+                    <p>September 2013 - Dec 2016</p>
                   </div>
                   <div className="timeline-content">
-                    <h4>Super Cool Agency</h4>
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                    <h4>Bank of America</h4>
+                    <h5>Small Business Credit Cards(SBCC)</h5>
+                    <p>Interim Team Lead who was hand selected and led a team of 20+ associates in the SBCC.</p>
                   </div>
                 </div> {/* /timeline-block */}
                 <div className="timeline-block">
                   <div className="timeline-ico">
-                    <i className="fa fa-graduation-cap" />
+                    <i className="fa fa-briefcase" />
                   </div>
                   <div className="timeline-header">
-                    <h3>Web Designer</h3>
-                    <p>May 2013 - June 2014</p>
+                    <h3>Customer Sales & Service Representative</h3>
+                    <p>2012 -  2013</p>
+                    <h3>Teller</h3>
+                    <p>2010 -  2012</p>
                   </div>
                   <div className="timeline-content">
-                    <h4>Great Designs Studio</h4>
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                    <h4>Wells Fargo, N.A. </h4>
+                    <p>Spent 3 years of my life here and I will never go back!</p>
                   </div>
                 </div> {/* /timeline-block */}
               </div> {/* /timeline-wrap */}   			
@@ -68,47 +71,22 @@ export class Resume extends Component {
               <div className="timeline-wrap">
                 <div className="timeline-block">
                   <div className="timeline-ico">
-                    <i className="fa fa-briefcase" />
+                    <i className="fa fa-graduation-cap" />
                   </div>
                   <div className="timeline-header">
-                    <h3>Master Degree</h3>
-                    <p>July 2015 - Present</p>
+                    <h3>Incomplete Bachelors Degree *30 Credits*</h3>
+                    <p>September 2008 - June 2009</p>
                   </div>
                   <div className="timeline-content">
-                    <h4>University of Life</h4>
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                    <h4>Art Institute of Philadelphia</h4>
+                    <p> It was the worst school I ever atteneded and am now glad that it's gone.</p>
                   </div>
                 </div> {/* /timeline-block */}
-                <div className="timeline-block">
-                  <div className="timeline-ico">
-                    <i className="fa fa-briefcase" />
-                  </div>
-                  <div className="timeline-header">
-                    <h3>Bachelor Degree</h3>
-                    <p>July 2014 - June 2015</p>
-                  </div>
-                  <div className="timeline-content">
-                    <h4>State Design University</h4>
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-                  </div>
-                </div> {/* /timeline-block */}
-                <div className="timeline-block">
-                  <div className="timeline-ico">
-                    <i className="fa fa-briefcase" />
-                  </div>
-                  <div className="timeline-header">
-                    <h3>Bachelor Degree</h3>
-                    <p>May 2013 - June 2014</p>
-                  </div>
-                  <div className="timeline-content">
-                    <h4>Design College</h4>
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-                  </div>
-                </div> {/* /timeline-block */}
-              </div> {/* /timeline-wrap */}   			
-            </div> {/* /col-twelve */}
+                 {/* /col-twelve */}
           </div> {/* /resume-timeline */}
         </div>
+      </div>
+    </div>
       );
     }
 };
