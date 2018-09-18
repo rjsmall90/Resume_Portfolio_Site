@@ -59,8 +59,8 @@ export class Contact extends Component {
                   <h5>Where to find me</h5>
                   <p>
                     1600 Amphitheatre Parkway<br />
-                    Mountain View, CA<br />
-                    94043 US
+                    Wilmington, DE<br />
+                    19806 US
                   </p>
                 </div>
                 <div className="col-four tab-full collapse">
@@ -68,8 +68,7 @@ export class Contact extends Component {
                     <i className="icon-mail" />
                   </div>
                   <h5>Email Me At</h5>
-                  <p>someone@kardswebsite.com<br />
-                    info@kardswebsite.com			     
+                  <p>rjsmall90@gmail.com<br />
                   </p>
                 </div>
                 <div className="col-four tab-full">
@@ -77,9 +76,7 @@ export class Contact extends Component {
                     <i className="icon-phone" />
                   </div>
                   <h5>Call Me At</h5>
-                  <p>Phone: (+63) 555 1212<br />
-                    Mobile: (+63) 555 0100<br />
-                    Fax: (+63) 555 0101
+                  <p>Phone: (302) 613 1136<br />
                   </p>
                 </div>
               </div> {/* /contact-info */}

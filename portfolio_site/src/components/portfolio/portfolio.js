@@ -7,7 +7,7 @@ export class Portfolio extends Component {
               <div className="row section-intro">
                 <div className="col-twelve">
                   <h5>Portfolio</h5>
-                  <h1>Check Out Some of My Works.</h1>
+                  <h1>Check Out Some of My Work!</h1>
                   <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
                 </div>   		
               </div> {/* /section-intro*/} 

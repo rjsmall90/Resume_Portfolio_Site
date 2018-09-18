@@ -10,7 +10,7 @@ export class About extends Component {
               <h1>Let me introduce myself.</h1>
               <div className="intro-info">
                 <img src="images/profile-pic.jpg" alt="Profile Picture" />
-                <p className="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
+                <p className="lead">An all-around creative. I've stood in the epicenter </p>
               </div>   			
             </div>   		
           </div> {/* /section-intro */}
@@ -29,7 +29,7 @@ export class About extends Component {
                 </li>
                 <li>
                   <strong>Job:</strong>
-                  <span>Freelancer, Frontend Developer</span>
+                  <span>Freelancer, Full-Stack Developer</span>
                 </li>
                 <li>
                   <strong>Website:</strong>
@@ -42,16 +42,43 @@ export class About extends Component {
               </ul> {/* /info-list */}
             </div>
             <div className="col-six tab-full">
+              <h3>Programming Languages</h3>
+              <p>A collection of programming languages that I've studied and personally have created projects in. </p>
+              <ul className="skill-bars">
+                <li>
+                  <div className="progress percent90"><span>90%</span></div>
+                  <strong>Java</strong>
+                </li>
+                <li>
+                  <div className="progress percent85"><span>85%</span></div>
+                  <strong>JavaScript/TypeScript</strong>
+                </li>
+                <li>
+                  <div className="progress percent25"><span>25%</span></div>
+                  <strong>Python</strong>
+                </li>
+                <li>
+                  <div className="progress percent95"><span>95%</span></div>
+                  <strong>HTML</strong>
+                </li>
+                <li>
+                  <div className="progress percent75"><span>75%</span></div>
+                  <strong>Wordpress</strong>
+                </li>
+              </ul> {/* /skill-bars */}		
+            </div>
+          </div>
+          <div className="col-six tab-full">
               <h3>Skills</h3>
               <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
               <ul className="skill-bars">
                 <li>
                   <div className="progress percent90"><span>90%</span></div>
-                  <strong>HTML5</strong>
+                  <strong>Java</strong>
                 </li>
                 <li>
                   <div className="progress percent85"><span>85%</span></div>
-                  <strong>CSS3</strong>
+                  <strong>JavaSc</strong>
                 </li>
                 <li>
                   <div className="progress percent70"><span>70%</span></div>
@@ -67,7 +94,7 @@ export class About extends Component {
                 </li>
               </ul> {/* /skill-bars */}		
             </div>
-          </div>
+          
           <div className="row button-section">
             <div className="col-twelve">
               <a href="#contact" title="Hire Me" className="button stroke smoothscroll">Hire Me</a>
@@ -77,6 +104,7 @@ export class About extends Component {
         </div>
       );
     }
-  };
+}
+  
 
   export default About
