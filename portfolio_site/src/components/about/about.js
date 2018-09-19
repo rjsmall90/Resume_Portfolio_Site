@@ -3,13 +3,14 @@ import React, { Component } from 'react';
 export class About extends Component {
     render() {
       return (
-        <div>
+        <React.Fragment>
+        <div id="about">
           <div className="row section-intro">
             <div className="col-twelve">
               <h5>About</h5>
               <h1>Let me introduce myself.</h1>
               <div className="intro-info">
-                <img src="Kards10/images/RSmallProfile.jpg" alt="Profile Picture" />
+                <img src="Kards10/images/RSmallProfile.jpg" alt="Profile" />
                 <p className="lead">An all-around creative. I've stood in the epicenter of technology all my life. I'm a God-Level AF Bro. I drink Dragon's Blood! </p>
               </div>   			
             </div>   		
@@ -56,7 +57,7 @@ export class About extends Component {
                   <strong>JavaScript/TypeScript</strong>
                 </li>
                 <li>
-                  <div className="progress percent25"><span>35%</span></div>
+                  <div className="progress percent35"><span>35%</span></div>
                   <strong>Python</strong>
                 </li>
                 <li>
@@ -98,13 +99,15 @@ export class About extends Component {
             </div>
             </div>
           
-          <div className="row button-section">
+          {/* <div className="row button-section">
             <div className="col-twelve">
               <a href="#contact" title="Hire Me" className="button stroke smoothscroll">Hire Me</a>
               <a href="#" title="Download CV" className="button button-primary">Download CV</a>
             </div>   		
-          </div>
+          </div> */}
         </div>
+        </React.Fragment>
+
       );
     }
 }

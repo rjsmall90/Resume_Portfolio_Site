@@ -2,14 +2,25 @@ import React, { Component } from 'react';
 
 export class Header extends Component {
 
+    componentDidMount () {
+        const script = document.createElement("script");
+
+        script.src = "/Kards10/js/menu.js";
+        script.async = true;
+
+        document.body.appendChild(script);
+    }
+
+
     render() {
       return (
-        <header>   	
+        <React.Fragment>
+        <header>
           <div className="row">
             <div className="top-bar">
-              <a className="menu-toggle" href="#"><span>Menu</span></a>
+              <a className="menu-toggle" href="#open"><span>Menu</span></a>
               <div className="logo">
-                <a href="index.html">SmallWorld</a>
+                <a href="/index.html">SmallWorld</a>
               </div>		      
               <nav id="main-nav-wrap">
                 <ul className="main-navigation">
@@ -17,12 +28,14 @@ export class Header extends Component {
                   <li><a className="smoothscroll" href="#about" title>About</a></li>
                   <li><a className="smoothscroll" href="#resume" title>Resume</a></li>
                   <li><a className="smoothscroll" href="#portfolio" title>Portfolio</a></li>
-                  <li><a className="smoothscroll" href="#contact" title>Contact</a></li>	
+                  <li><a className="smoothscroll" href="#contact" title>Contact</a></li>
+                  <li><a href="Kards10/styles.html" title="">styles</a></li>	
                 </ul>
               </nav>    		
             </div> {/* /top-bar */} 
-          </div> {/* /row */} 		
+          </div> {/* /row */} 
         </header>
+        </React.Fragment>
       );
     }
   };

@@ -4,7 +4,8 @@ export class Resume extends Component {
 
     render() {
       return (
-        <div>
+          <React.Fragment>
+        <div id = "resume">
           <div className="row section-intro">
             <div className="col-twelve">
               <h5>Resume</h5>
@@ -87,6 +88,7 @@ export class Resume extends Component {
         </div>
       </div>
     </div>
+    </React.Fragment>
       );
     }
 };

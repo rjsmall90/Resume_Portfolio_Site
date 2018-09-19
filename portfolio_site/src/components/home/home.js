@@ -4,7 +4,7 @@ export class Home extends Component {
 
         render() {
           return (
-            <div>
+            <div id ="intro">
               <div className="intro-overlay" />	
               <div className="intro-content">
                 <div className="row">

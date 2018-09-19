@@ -4,7 +4,7 @@ export class Contact extends Component {
 
     render() {
           return (
-            <div>
+            <div id ="contact">
               <div className="row section-intro">
                 <div className="col-twelve">
                   <h5>Contact</h5>
@@ -58,7 +58,6 @@ export class Contact extends Component {
                   </div>
                   <h5>Where to find me</h5>
                   <p>
-                    1600 Amphitheatre Parkway<br />
                     Wilmington, DE<br />
                     19806 US
                   </p>
@@ -76,11 +75,12 @@ export class Contact extends Component {
                     <i className="icon-phone" />
                   </div>
                   <h5>Call Me At</h5>
-                  <p>Phone: (302) 613 1136<br />
+                  <p>(302) 613 1136<br />
                   </p>
                 </div>
               </div> {/* /contact-info */}
             </div>
+
           );
         }
       };

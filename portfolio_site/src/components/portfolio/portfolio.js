@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 export class Portfolio extends Component {
         render() {
           return (
-            <div>
+            <React.Fragment>
+            <div id ="portfolio">
               <div className="row section-intro">
                 <div className="col-twelve">
                   <h5>Portfolio</h5>
@@ -197,7 +198,8 @@ export class Portfolio extends Component {
                 </div>  {/* /twelve */}   
               </div> {/* /portfolio-content */}
             </div>
+            </React.Fragment>
           );
         }
     };
-        export default Portfolio; 
+        export default Portfolio 
