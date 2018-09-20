@@ -10,7 +10,7 @@ export class Resume extends Component {
             <div className="col-twelve">
               <h5>Resume</h5>
               <h1>More of my credentials.</h1>
-              <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+              <p className="lead"></p>
             </div>   		
           </div> {/* /section-intro*/} 
           <div className="row resume-timeline">
@@ -81,6 +81,17 @@ export class Resume extends Component {
                   <div className="timeline-content">
                     <h4>Art Institute of Philadelphia</h4>
                     <p> It was the worst school I ever atteneded and am now glad that it's gone.</p>
+                  </div>
+                  <div className="timeline-ico">
+                    <i className="fa fa-graduation-cap" />
+                  </div>
+                  <div className="timeline-header">
+                    <h3>H.S. Diploma/Graphic Design</h3>
+                    <p>August 2005 - June 2008</p>
+                  </div>
+                  <div className="timeline-content">
+                    <h4>Delcastle Technical High</h4>
+                    <p> Studied Graphic Design.</p>
                   </div>
                 </div> {/* /timeline-block */}
                  {/* /col-twelve */}

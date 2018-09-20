@@ -9,10 +9,11 @@ export class Home extends Component {
               <div className="intro-content">
                 <div className="row">
                   <div className="col-twelve">
-                    <h5>Hello, All.</h5>
+                    <h5>Welcome to Small World,</h5>
                     <h1>I'm Ryan Small.</h1>
                     <p className="intro-position">
                       <span>Full-Stack Developer</span>
+                      <span>Graphic Artist</span>
                     </p>
                     <a className="button stroke smoothscroll" href="#about" title>More About Me</a>
                   </div>  

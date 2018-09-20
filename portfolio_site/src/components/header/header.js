@@ -19,7 +19,7 @@ export class Header extends Component {
           <div className="row">
             <div className="top-bar">
               <a className="menu-toggle" href="#open"><span>Menu</span></a>
-              <div className="logo">
+              <div className="">
                 <a href="/index.html">SmallWorld</a>
               </div>		      
               <nav id="main-nav-wrap">
@@ -29,7 +29,7 @@ export class Header extends Component {
                   <li><a className="smoothscroll" href="#resume" title>Resume</a></li>
                   <li><a className="smoothscroll" href="#portfolio" title>Portfolio</a></li>
                   <li><a className="smoothscroll" href="#contact" title>Contact</a></li>
-                  <li><a href="Kards10/styles.html" title="">styles</a></li>	
+                  <li><a href="Kards10/styles.html" title=""></a></li>	
                 </ul>
               </nav>    		
             </div> {/* /top-bar */} 

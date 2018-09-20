@@ -77,7 +77,7 @@ export class About extends Component {
                   <strong>Ionic3</strong>
                 </li>
                 <li>
-                  <div className="progress percent81"><span>81%</span></div>
+                  <div className="progress percent80"><span>81%</span></div>
                   <strong>React</strong>
                 </li>
               </ul> {/* /skill-bars */}		
@@ -88,11 +88,11 @@ export class About extends Component {
               {/* <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p> */}
               <ul className="skill-bars">
                 <li>
-                  <div className="progress percent90"><span>95%</span></div>
+                  <div className="progress percent90"><span>90%</span></div>
                   <strong>Adobe Creative Suite</strong>
                 </li>
                 <li>
-                  <div className="progress percent100"><span>100% motha fucka</span></div>
+                  <div className="progress percent95"><span>95%</span></div>
                   <strong>Leadership</strong>
                 </li>
               </ul> {/* /skill-bars */}		

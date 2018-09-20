@@ -13,7 +13,7 @@ nav.slideToggle();
 // nav items
 nav.find('li a').on("click", function() {   
 
-    // update the toggle button 		
+    // update the toggle button 	
     toggleButton.toggleClass('is-clicked'); 
     // fadeout the navigation panel
     nav.fadeOut();   		
