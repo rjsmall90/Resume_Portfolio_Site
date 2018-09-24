@@ -11,7 +11,7 @@ export class About extends Component {
               <h1>Let me introduce myself.</h1>
               <div className="intro-info">
                 <img src="Kards10/images/RSmallProfile.jpg" alt="Profile" />
-                <p className="lead">An all-around creative. I've stood in the epicenter of technology all my life. I'm a God-Level AF Bro. I drink Dragon's Blood! </p>
+                <p className="lead">An all-around creative. I've stood in the epicenter of technology all my life. I'm God-Level AF Bro. I drink Tiger's Blood!</p>
               </div>   			
             </div>   		
           </div> {/* /section-intro */}
@@ -19,7 +19,7 @@ export class About extends Component {
           <div className="row about-content">
             <div className="col-six tab-full">
               <h3>Profile</h3>
-              <p>Software Developer with over 9 years of customer service experience, including 7 years' experience in the financial industry. Recognized for strong leadership and project management skills.</p>
+              <p>Software Developer/Graphic Designer with over 9 years of customer service experience, including 7 years' experience in the financial industry. Recognized for strong leadership and project management skills. Multiple freelance projects done over the course of 10 years. </p>
               <ul className="info-list">
                 <li>
                   <strong>Fullname:</strong>
@@ -65,15 +65,15 @@ export class About extends Component {
                   <strong>HTML</strong>
                 </li>
                 <li>
-                  <div className="progress percent75"><span>75%</span></div>
+                  <div className="progress percent65"><span>68%</span></div>
                   <strong>Spring</strong>
                 </li>
                 <li>
-                  <div className="progress percent75"><span>75%</span></div>
+                  <div className="progress percent65"><span>65%</span></div>
                   <strong>Angular6</strong>
                 </li>
                 <li>
-                  <div className="progress percent85"><span>85%</span></div>
+                  <div className="progress percent80"><span>80%</span></div>
                   <strong>Ionic3</strong>
                 </li>
                 <li>

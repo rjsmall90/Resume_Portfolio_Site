@@ -29,7 +29,7 @@ export class Resume extends Component {
                   </div>
                   <div className="timeline-content">
                     <h4>Zip Code Wilmington</h4>
-                    <p> Three month bootcamp intensely learning Java, Object-Oriented Programming principles, & Spring.</p>
+                    <p> Three month, highly intensive bootcamp studying the Java language, Object-Oriented Programming principles, RDBMS's & Spring.</p>
                   </div>
                 </div> {/* /timeline-block */}
                 <div className="timeline-block">
@@ -58,7 +58,7 @@ export class Resume extends Component {
                   </div>
                   <div className="timeline-content">
                     <h4>Wells Fargo, N.A. </h4>
-                    <p>Spent 3 years of my life here and I will never go back!</p>
+                    <p>Started as a Teller maintaining cash deposits and client accounts. Promoted within 16 months to CSSR, acheived sales goals in both positions during tenure.</p>
                   </div>
                 </div> {/* /timeline-block */}
               </div> {/* /timeline-wrap */}   			
@@ -80,8 +80,9 @@ export class Resume extends Component {
                   </div>
                   <div className="timeline-content">
                     <h4>Art Institute of Philadelphia</h4>
-                    <p> It was the worst school I ever atteneded and am now glad that it's gone.</p>
+                    <p> Spent 1 year learning the foundations of illustration, and intensely studying design programs: i.e. Adobe Creative Suite</p>
                   </div>
+                  <div className="timeline-block">
                   <div className="timeline-ico">
                     <i className="fa fa-graduation-cap" />
                   </div>
@@ -91,7 +92,8 @@ export class Resume extends Component {
                   </div>
                   <div className="timeline-content">
                     <h4>Delcastle Technical High</h4>
-                    <p> Studied Graphic Design.</p>
+                    <p> Studied Graphic Design. First foray into computer illustration and use of Adobe programs.</p>
+                    </div>
                   </div>
                 </div> {/* /timeline-block */}
                  {/* /col-twelve */}
